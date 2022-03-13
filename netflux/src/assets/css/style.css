@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    overflow: hidden;
+}
+
+h1 {
+    position: relative;
+    padding-top: 6.5%;
+    width: 20%;
+    color: #fff;
+    font-family: 'Gotham Light', sans-serif;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.mainView {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: -85px;
+    padding-top: 10%;
+}
+
+.mainView-home {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: -85px;
+}
+
+.mainView .search-show {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.showSearch {
+    margin-top: 3vw;
+    margin-right: 1vw;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.mainView-home .show {
+    margin-top: -7%;
+    z-index: 10;
+    position: relative;
+}
+
+.mainView-show-detail {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: -85px;
+    padding-top: 5%;
+}
+
+.list-episodes {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.gallery {
+    margin: 0;
+    overflow: hidden;
+    min-height: 1000px;
+    margin-top: 3.5%;
+    padding-top: 25rem;
+    box-sizing: border-box;
+}
+
+.gallery-content {
+    position: relative;
+}
+
+.slider {
+    position: relative;
+    margin: 0;
+    padding: 0 4%;
+    touch-action: pan-y;
+}
+
+.show-item-home {
+    box-sizing: border-box;
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    white-space: normal;
+    vertical-align: top;
+    padding: 0 0.2vw;
+}
+
+.show-img-home {
+    position: relative;
+    width: 100%;
+    padding-top: 56%;
+}
+
+.show-name {
+    font-size: 1.8rem;
+    line-height: 1.2rem;
+}
+
+.show-summary {
+    width: 80%;
+    margin-top: 10%;
+}
+
+.show-genres {
+    margin-top: 10%;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.billboard {
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    height: 56.25vw;
+    z-index: 0;
+    margin-top: -12%;
+}
+
+.hero-image-wrapper {
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 1;
+}
+
+.hero-image-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: -webkit-linear-gradient( bottom, #000, rgba(255, 255, 255, 0));
+    background: linear-gradient(to top, #000, rgba(255, 255, 255, 0));
+}
+
+.episode-card {
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+    text-align: left;
+    align-items: center;
+    width: 60%;
+    top: 40px;
+    left: 20%;
+    transform-origin: center top;
+    transform: translateX(0px) translateY(calc(-40px + 2em)) scaleX(1) scaleY(1) translateZ(0px);
+    z-index: 2;
+    opacity: 1;
+    box-shadow: rgb(0 0 0 / 75%) 0px 3px 10px;
+    margin-bottom: 2em;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.episode-img {
+    position: relative;
+    width: 100%;
+    padding-top: 56%;
+}
+
+.airdate {
+    margin-right: 0.5em;
+}
+
+.name {
+    font-size: 1.8rem;
+    margin-right: 0.5em;
+    font-weight: 800;
+}
+
+.episode-img img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -o-object-position: bottom;
+    object-position: bottom;
+}
+
+.infos-episode {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.episode-rating span {
+    font-weight: 800;
+}
+
+.episode-summary {
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.list-shows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.list-shows .episode-details {
+    pointer-events: auto;
+    cursor: pointer;
+    margin-top: 3vw;
+    margin-right: 0.5vw;
+}
