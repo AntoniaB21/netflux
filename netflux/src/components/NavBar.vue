@@ -8,7 +8,7 @@
 						<router-link to="/">Home</router-link>
 					</li>
 					<li class="navigation-tab">
-						<router-link to="/searchshow">Search Show</router-link>
+						<router-link to="/search">Search Show</router-link>
 					</li>
 				</ul>
 			</div>

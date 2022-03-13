@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import ShowDetails from "../views/ShowDetails.vue";
-import MovieDetails from "../views/MovieDetails.vue";
 import EpisodeCard from "../views/EpisodeCard.vue";
 import Home from "../views/Home.vue";
 import SearchShow from "../views/SearchShow.vue";
@@ -17,13 +16,8 @@ const routes = [{
         component: ShowDetails,
     },
     {
-        path: "/showdetails",
-        name: "showdtails",
-        component: MovieDetails,
-    },
-    {
-        path: "/searchshow",
-        name: "searchshow",
+        path: "/search",
+        name: "search",
         component: SearchShow,
     },
     {
