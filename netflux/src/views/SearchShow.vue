@@ -18,7 +18,6 @@
             v-for="show in shows"
             :key="show.id" @click="goToShow(show.show.id)"
         >
-            {{ show.show.name }}
             <div class="showSearch-img">
                 <img class="show-cover link"
                 :src="`${
